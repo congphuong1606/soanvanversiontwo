@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity12">
+    <item
+        android:id="@+id/search_view"
+        app:showAsAction="ifRoom|collapseActionView"
+        android:title="searchview_title"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        android:icon="@drawable/ic_searchxml"
+        />
+    <item
+        android:id="@+id/btn_tap1"
+        android:title="searchview_title"
+        android:icon="@drawable/ic_searchxml"
+        />
+    <item
+        android:id="@+id/btn_tap2"
+        android:title="searchview_title"
+        android:icon="@drawable/ic_searchxml"
+        />
+</menu>

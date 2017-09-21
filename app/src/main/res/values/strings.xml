@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SoanVanThpt</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="idbannerbottom">ca-app-pub-6929505284145846/7538176814</string>
+    <string name="text_favorites">tập một</string>
+    <string name="text_schedules">tập hai</string>
+</resources>

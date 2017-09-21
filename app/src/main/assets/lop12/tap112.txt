@@ -1,0 +1,88 @@
+<h4>Hướng dẫn Soạn bài: Phong cách ngôn ngữ khoa học</h4>
+<b>I. Văn bản khoa học và ngôn ngữ khoa học<br></b>
+1. Văn bản khoa học<br>
+
+   Các văn bản khoa học có thể phân chia thành ba loại:
+<br>
+a. Các văn bản chuyên sâu: bao gồm chuyên khảo, luận án, luận văn, tiểu luận, báo cáo khoa học, dự án… Những văn bản này đòi hỏi phải chính xác về thông tin, logic trong lập luận, chặt chẽ nghiêm ngặt trong kiến giải.
+<br>
+b. Các văn bản văn bản dùng để giảng dạy các môn khoa học, bao gồm: giáo trình, giáo án… giảng dạy các môn khoa học tự nhiên và khoa học xã hội nhân văn. Những văn bản này ngoài yêu cầu về khoa học còn có yêu cầu về sư phạm, tức là phải trình bày nội dung dễ đến khó, từ thấp đến cao, phù hợp với trình độ học sinh theo từng cấp, từng lớp, cố định lượng kiến thức từng tiết, từng bài
+<br>
+c. Các văn bản phố biến khoa học (khoa học đại chúng), bao gồm: sách phổ biến khoa học, các bài báo, bút kí khoa học, phê bình, điểm sách, nhằm phổ biến rộng rãi kiến thức khoa học đến đông đảo bạn đọc. Loại văn bản này yêu cầu viết cho dễ hiểu, hấp dẫn.
+<br>
+2. Ngôn ngữ khoa học
+<br>
+– Khái niệm : Ngôn ngữ khoa học là ngôn ngữ được dùng trong giao tiếp thuộc lĩnh vực khoa học, tiêu biểu là trong văn bản khoa học.
+<br>
+– Ở dạng viết: ngoài sử dụng từ ngữ, còn dùng các kí hiệu, các công thức hay sơ đồ, bảng biểu…
+<br>
+– Ở dạng nói ngôn ngữ khoa học yêu cầu ở mức độ cao về phát âm chuẩn, diễn đạt mạch lạc và phải có đề cương viết trước.
+<br><br><b>
+II. Đặc trưng của phong cách ngôn ngữ khoa học</b>
+   <br>Ngôn ngữ trong văn bản khoa học mang các đặc trưng cơ bản: tính khái quát, tính trừu tượng, tính lí trí, tính logic, tính khách quan, phi cá thể. Điều đó được thể hiện qua cách sử dụng từ ngữ, cú pháp, cách trình bày, lập luận, …
+<br><br><b>
+III. Luyện tập
+<br>Câu 1:</b> Bài Khái quát văn học Việt Nam từ Cách mạng thán Tám 1945 đến hết thế kỉ XX là một văn bản khoa học:
+<br>
+a. Văn bản đó trình bày nội dung khoa học về lịch sử văn học Việt Nam từ 1945 đến hết thế kỉ XX, cụ thể là:
+<br>
+- Khái quát văn học Việt Nam từ 1945 đến hết 1975:
+<br>
+   + Hoàn cảnh lịch sử, xã hội, văn hóa.
+<br>
+   + Các chặng đường văn học và những thành tựu chính.
+<br>
+   + Những đặc điểm cơ bản
+<br>
+- Khái quát văn học Việt Nam từ 1945 đến hết thế kỉ XX:
+<br>
+   + Hoàn cảnh lịch sử, xã hội, văn hóa.
+<br>
+- Những chuyển biến và một số thành tựu.
+<br>
+b. Văn học đó thuộc ngành khoa học xã hội.
+<br>
+c. Văn bản này được viết bằng ngôn ngữ khoa học
+<br>
+- Hệ thống đề mục được sắp xếp từ lớn đến nhỏ, từ khái quát đến cụ thể.
+<br>
+- Sử dụng nhiều thuật ngữ khoa học xã hội, đặc biệt là thuật ngữ văn học (Ví dụ: Đường lối văn nghệ, truyện ngắn, kí, thơ, đề tài, chủ đề, khuynh hướng sử thi, xu hướng văn học, cảm hứng lãng mạn, tính nhân bản, nhân văn, …)
+<br>
+- Kết cấu văn bản rõ ràng, chặt chẽ do các câu, các đoạn được sắp xếp theo trật tự mạch lạc, làm nổi bật lập luận trong từng đoạn, cả bài.
+<br><br><b>
+Câu 2:
+<br></b>
+- Đoạn thẳng:
+<br>
+   + Ngôn ngữ thông thường: Đoạn không cong queo, gãy khúc, không lệch về một bên nào cả.
+<br>
+   + Ngôn ngữ khoa học: Đoạn ngắn nhất nối hai điểm với nhau.
+<br>
+- Mặt phẳng:
+<br>
+   + Ngôn ngữ thông thường: Bề mặt của một vật bằng phẳng, không lồi, lõm, gồ ghề.
+<br>
+   + Ngôn ngữ khoa học: là một khái niệm cơ bản trong toán học, là một tập hợp tất cả các điểm trong không gian ba chiều.
+<br>
+
+- Góc:
+<br>
+   + Ngôn ngữ thông thường: Có thể là một phần, một phía (Ăn hết một góc; "Triều đình riêng một góc trời/ Gồm hai văn võ rạch đôi sơn hà")
+<br>
+   + Ngôn ngữ khoa học: Phần mặt phẳng giới hạn bởi hai nửa đường thẳng cùng xuất phát từ một điểm
+<br>
+Tương tự các từ còn lại như điểm, đường thẳng, đường tròn, góc vuông, … các bạn có thể tự giải thích và phân biệt.
+<br><br><b>
+Câu 3:
+<br></b>
+– Đoạn văn dùng nhiều thuật ngữ khoa học: khảo cổ, hạch đá, mảnh tước, di chỉ xương, …
+<br>
+- Câu văn mang tính phán đoán logic: Những phát hiện của nhà khảo cổ … của người vượn. (câu 1)
+<br>
+- Các câu liên kết chặt chẽ và mạch lạc:
+<br>
+   + Câu 1: Nêu luận điểm (một phán đoán)
+<br>
+   + Câu 2 + 3 + 4: Nêu 3 luận cứ, mỗi luận cứ là một chứng tích trong khảo cổ.
+<br>
+--> Làm cho luận điểm có sức thuyết phục cao.<br><br>

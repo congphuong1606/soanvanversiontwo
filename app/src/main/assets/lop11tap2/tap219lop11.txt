@@ -1,0 +1,104 @@
+﻿<i><h4>Đặc điểm loại hình của tiếng Việt</h4><b>
+I. Loại hình ngôn ngữ<br></b>
+- Loại hình là một tập hợp những sự vật, hiện tượng cùng có chung những đặc trưng cơ bản nào đó, ví dụ như: loại hình nghệ thuật, loại hình báo chí, loại hình ngôn ngữ, ...
+<br>
+- Có hai loại hình ngôn ngữ quen thuộc với chúng ta là:
+<br>
+    + Loại hình ngôn ngữ đơn lập (tiếng Việt, tiếng Thái, tiếng Hán, ...)
+<br>
+    + Loại hình ngôn ngữ hòa kết (tiếng Nga, tiếng Pháp, tiếng Anh, ...)
+<br><br><b>
+II. Đặc điểm loại hình của tiếng việt<br></b>
+Đặc trưng cơ bản của ngôn ngữ đơn lập là:
+<br>
+1. Tiếng là đơn vị cơ sở của ngôn ngữ. Tiếng trong Tiếng Việt trùng với âm tiết và có thể là từ (hoặc yếu tố để tạo từ). Âm tiết có kết cấu chặc chẽ, có ranh giới rõ ràng, ở dạng đầy đủ gồm có: phụ âm đầu, vần và thanh điệu.
+<br>
+2. Từ không biến đổi hình thái.
+<br>
+3. Trong các ngôn ngữ thuộc loại hình ngôn ngữ đơn lập, biện pháp chủ yếu để biểu thị ý nghĩa ngữ pháp là sắp đặt từ theo thứ tự trước sau và sử dụng các hư từ, nghĩa là khi ta thay đổi trật tự sắp xếp của từ (và thay đổi các hư từ được dùng) thì nghĩa của từ, của câu sẽ đổi khác (hoặc trở thành vô nghĩa).
+<br><br><b>
+III. Luyện tập
+Câu 1:<br></b>
+
+a.
+
+Trèo lên cây bưởi hái hoa<br>
+Bước xuống vườn cà hái nụ tầm xuân (1)<br>
+Nụ tầm xuân (2) nở ra xanh biếc<br>
+Em có chồng rồi anh tiếc lắm thay<br>
+                        (Ca dao)<br>
+Nụ tầm xuân (1) là thành phần phụ (bổ ngữ), chỉ đối tượng của động từ hái ... nụ tầm xuân (2) là chủ ngữ, chủ thể của hoạt động nở ...
+<br>
+Xét về mặt vị ngữ âm và sự thể hiện bằng chữ viết, hoàn toàn không có sự thay đổi, khác biệt nào giữa nụ tầm xuân - chủ ngữ và nụ tầm xuân - thành phần phụ.
+<br>
+b.
+
+Thuyền ơi có nhớ bến (1) chăng<br>
+Bến (2) thì một dạ, khăng khăng đợi thuyền<br>
+                        (Ca dao)<br>
+Bến (1) là thành phần phụ (bổ ngữ), Bến (2) là chủ ngữ xét về mặt ngôn ngữ âm và sự thể hiện bằng chữ viết, hoàn toàn không có sự đổi thay, khác biệt nào giữa Bến - chủ ngữ và bến - thành phần phụ.
+<br>
+c.
+
+Yêu trẻ (1), trẻ (2) đến nhà; kính già (1), già (2) để tuổi cho.<br>
+- Trẻ (1) là bổ ngữ (nằm trong phần khởi ngữ).<br>
+
+- Trẻ (2) là chủ ngữ.<br>
+
+- Già (1) là bổ ngữ (nằm trong phần khởi ngữ).<br>
+
+- Già (2) là chủ ngữ.<br>
+
+Xét về mặt âm và sự thể hiện bằng những chữ viết hoàn toàn không có sự thay đổi khác biệt nào giữa trẻ (1) và trẻ (2); già (1) và già (2).
+<br>
+d.
+
+Con đem con cá bống (1) ấy về thả xuống giếng mà nuôi. Mỗi bữa, đáng ăn ba bát thì con ăn hai, còn một đem thả xuống cho bống (2) ...
+<br>
+Nói xong Bụt biến mất. Tấm theo lời Bụt thả bống (3) xuống giếng. Rồi từ hôm ấy trở đi, cứ mỗi bữa ăn, Tấm đều để dành cơm, giấu đưa ra cho bống (4). Mỗi lần nghe Tấm gọi, bống (5) lại ngoi lên mặt nước đớp những hạt cơm của Tấm ném xuống. Người và cá ngày một quen nhau, và bống (6) ngày càng lớn lên trông thấy.
+<br>
+Vai trò ngữ pháp của mỗi từ bống trong đoạn văn trên là:
+<br>
+- Bống (1): là bổ ngữ chỉ đối tượng cho động từ đem.
+<br>
+- Bống (2): là bổ ngữ chỉ đối tượng cho động từ thả (xuống).
+<br>
+- Bống (3): là bổ ngữ chỉ đối tượng cho động từ thả.
+<br>
+- Bống (4): là bổ ngữ cho động từ giấu.
+<br>
+- Bống (5): chủ ngữ của câu (chủ thể của hành động ngoi lên).
+<br>
+- Bống (6): chủ ngữ của câu (chủ thể của quá trình ngày một lớn lên trông thấy).
+<br><br><b>
+Câu 2:
+<br></b>
+a. Ví dụ:
+<br>
+- Tiếng Anh: I saw her, three days ago.
+<br>
+- Dịch: Tôi thấy cô ấy cách đây ba ngày.
+<br>
+b. Phân tích ví dụ:
+<br>
+- Đặc điểm loại hình ngôn ngữ hòa kết của tiếng Anh trong ví dụ trên thể hiện ở:
+<br>
+    + Ranh giới các âm tiết không rõ ràng: các từ three, ago dù có dạng hai âm tiết nhưng chúng được phát âm nối liền nhau.
+<br>
+    + Từ có sự biến đổi về hình thức: từ saw (thấy, nhìn thấy) có hình thức tồn tại ở thì quá khứ. Thì hiện tại của từ này viết là see. Cũng tương tự như vậy là từ her (cô ấy). Trong câu này "cô ấy" không phải là chủ ngữ (she) mà đóng vai trò là tân ngữ, thế nên dạng thức tồn tại của nó là tính từ sở hữu (her).
+<br>
+    + Trật tự không được sắp xếp theo thứ tự trước sau. Trạng ngữ của câu đặt ở cuối câu. Đồng thời trong trạng ngữ thì trật từ thuận cũng bị đảo lộn: từ cách đây (ago) lại đặt sau phần chỉ thời gian (three days).
+<br>
+- Ngược lại với những đặc điểm trên của tiếng Anh là những đặc điểm của loại hình ngôn ngữ đơn lập trong câu dịch tiếng Việt:
+<br>
+    + Ranh giới các âm tiết rõ ràng (mỗi từ được phát âm tách biệt, tách rời.
+<br>
+    + Từ không có biến đổi về hình thức.
+<br>
+    + Trật tự từ được sắp xếp theo đúng thứ tự trước sau.
+<br><br><b>
+Câu 3:
+<br></b>
+- Các hư từ: lại, mà.
+<br>
+- Tác dụng: nhấn mạnh sức mạnh, chiến thằng của dân tộc; bộc lộ niềm tự hào về nhân dân mình.
