@@ -16,7 +16,6 @@ public class FlashActivity extends AppCompatActivity {
         handler.postDelayed(new Runnable() {
             @Override
             public void run() {
-
                 Intent i = new Intent(FlashActivity.this, MainActivity.class);
                 startActivity(i);
                 finish();

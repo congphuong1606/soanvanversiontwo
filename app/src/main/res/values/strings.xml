@@ -6,4 +6,7 @@
     <string name="idbannerbottom">ca-app-pub-6929505284145846/7538176814</string>
     <string name="text_favorites">tập một</string>
     <string name="text_schedules">tập hai</string>
+    <string name="lopmuoi">Soạn văn 10</string>
+    <string name="lopmuoihai">Soạn văn 12</string>
+    <string name="muoimot">Soạn văn 11</string>
 </resources>

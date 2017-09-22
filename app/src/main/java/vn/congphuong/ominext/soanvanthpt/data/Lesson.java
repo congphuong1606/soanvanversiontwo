@@ -26,6 +26,11 @@ public class Lesson implements Serializable{
         this.chapter = chapter;
     }
 
+    public Lesson(String name, String path) {
+        this.name = name;
+        this.path = path;
+    }
+
     public int getId() {
         return id;
     }

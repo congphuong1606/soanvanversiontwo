@@ -9,6 +9,8 @@ import android.text.ClipboardManager;
 import android.text.Html;
 import android.text.TextUtils;
 import android.view.View;
+import android.view.Window;
+import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -42,6 +44,9 @@ public class DetailActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        requestWindowFeature(Window.FEATURE_NO_TITLE);
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
+                WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_detail);
         ButterKnife.bind(this);
         loadAds();
@@ -52,7 +57,7 @@ public class DetailActivity extends AppCompatActivity {
 
     private void setText() {
         Intent intent = getIntent();
-        String fileName = intent.getStringExtra("FILE");
+        String fileName = intent.getStringExtra("path");
         if (!TextUtils.isEmpty(fileName)) {
             String data = getData(fileName);
             tvContent.setText(Html.fromHtml(data));
@@ -84,10 +89,15 @@ public class DetailActivity extends AppCompatActivity {
         avDetail.loadAd(adRequest);
     }
 
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+    }
     @OnClick({R.id.btn_detail_back, R.id.fab_coppy, R.id.av_detail})
     public void onViewClicked(View view) {
         switch (view.getId()) {
             case R.id.btn_detail_back:
+                onBackPressed();
                 break;
             case R.id.fab_coppy:
                 coppy();

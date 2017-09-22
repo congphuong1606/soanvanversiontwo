@@ -1,28 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+
     android:layout_height="match_parent"
+
     tools:context="vn.congphuong.ominext.soanvanthpt.ui.MainActivity">
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/nenbac"
+        android:fitsSystemWindows="false">
+
+    </RelativeLayout>
+
     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
         android:layout_gravity="center"
         android:layout_marginLeft="40dp"
         android:layout_marginRight="40dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        >
+        android:orientation="vertical">
 
         <Button
             android:id="@+id/btn_lop10"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/mybutton"
+            android:background="@drawable/btn_lop"
             android:drawableLeft="@drawable/book10"
-            android:text="Soạn văn lớp 10"
-            android:textAllCaps="false"
+            android:drawablePadding="30dp"
+            android:gravity="left|center"
+            android:text="@string/lopmuoi"
             android:textColor="@color/white"
             android:textSize="18sp" />
 
@@ -31,10 +43,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
-            android:background="@drawable/mybutton"
+            android:background="@drawable/btn_lop"
             android:drawableLeft="@drawable/book10"
-            android:text="Soạn văn lớp 10"
-            android:textAllCaps="false"
+            android:drawablePadding="30dp"
+            android:gravity="left|center"
+            android:text="@string/muoimot"
             android:textColor="@color/white"
             android:textSize="18sp" />
 
@@ -43,14 +56,28 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
-            android:background="@drawable/mybutton"
+            android:background="@drawable/btn_lop"
             android:drawableLeft="@drawable/book10"
-            android:text="Soạn văn lớp 10"
-            android:textAllCaps="false"
+            android:drawablePadding="30dp"
+            android:gravity="left|center"
+            android:text="@string/lopmuoihai"
             android:textColor="@color/white"
             android:textSize="18sp" />
 
     </LinearLayout>
 
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/av_banner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="143dp"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="@string/idbannerbottom">
 
-</LinearLayout>
+    </com.google.android.gms.ads.AdView>
+
+
+</android.support.design.widget.CoordinatorLayout>

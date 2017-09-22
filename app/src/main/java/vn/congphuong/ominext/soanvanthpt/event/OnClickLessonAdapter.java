@@ -1,0 +1,9 @@
+package vn.congphuong.ominext.soanvanthpt.event;
+
+/**
+ * Created by Ominext on 9/22/2017.
+ */
+
+public interface OnClickLessonAdapter {
+    void onClick(String path);
+}
