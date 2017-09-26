@@ -17,7 +17,7 @@
         <android.support.v7.widget.Toolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
-            android:layout_height="40dp"
+            android:layout_height="50dp"
             app:layout_scrollFlags="scroll|enterAlways|snap">
 
             <RelativeLayout
@@ -41,7 +41,9 @@
                     android:layout_toLeftOf="@+id/tv_lop"
                     android:layout_toRightOf="@+id/btn_back_listLesson"
                     android:background="@drawable/mybutton"
-                    app:defaultQueryHint="tìm kiếm"></android.support.v7.widget.SearchView>
+                    app:defaultQueryHint="tìm kiếm">
+
+                </android.support.v7.widget.SearchView>
 
                 <View
                     android:layout_width="10dp"
@@ -147,15 +149,11 @@
         android:nestedScrollingEnabled="true"
         android:paddingLeft="4dp"
         android:paddingRight="4dp"
-        app:layout_behavior="@string/appbar_scrolling_view_behavior"></android.support.v7.widget.RecyclerView>
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
-    <!--<android.support.v7.widget.RecyclerView-->
-    <!--android:id="@+id/rcv_lesson"-->
-    <!--android:layout_width="match_parent"-->
-    <!--android:layout_height="match_parent"-->
-    <!--&gt;-->
+    </android.support.v7.widget.RecyclerView>
 
-    <!--</android.support.v7.widget.RecyclerView>-->
+
 
 
 </android.support.design.widget.CoordinatorLayout>
