@@ -79,7 +79,8 @@ public class LessonAdapter extends RecyclerView.Adapter<LessonAdapter.ViewHolder
             itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    mListener.onClick(lessons.get(getAdapterPosition()).getPath());
+                    mListener.onClick(lessons.get(getAdapterPosition()).getPath(),
+                            lessons.get(getAdapterPosition()).getName());
                 }
             });
 

@@ -5,6 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#dfeeff"
     tools:context="vn.congphuong.ominext.soanvanthpt.ui.DetailActivity">
 
 
@@ -16,28 +17,36 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_above="@+id/av_detail">
-
-        <TextView
-
-            android:id="@+id/tv_content"
+        <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:paddingLeft="4dp"
-            android:paddingRight="4dp"
-            android:paddingTop="45dp"
-            android:text="fjbnfdkjibvv\nfiabhf\nbfkjibaikdfbfkacbf\nbfdikjcbik\ncfkibadvj\n"
-            android:textColor="@color/text" />
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:background="#002c5e"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"></LinearLayout>
+            <TextView
+                android:id="@+id/tv_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:text="fjbnfdkjibvv\nfiabhf\nbfkjibaikdfbfkacbf\nbfdikjcbik\ncfkibadvj\n"
+                android:textColor="@color/text" />
+        </RelativeLayout>
+
+
 
 
     </ScrollView>
     <LinearLayout
+        android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="40dp"
-        android:background="#ba3b3a3a">
+        android:background="@color/abc">
 
         <Button
             android:id="@+id/btn_detail_back"
-            android:layout_width="40dp"
+            android:layout_width="30dp"
             android:layout_height="30dp"
             android:layout_gravity="center_vertical"
             android:layout_margin="5dp"
@@ -45,6 +54,16 @@
             android:background="@drawable/ic_backxml"
             android:gravity="center"
             android:paddingLeft="5dp" />
+        <TextView
+            android:ellipsize="end"
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            android:textStyle="bold|italic"
+            android:maxLines="1"
+            android:layout_gravity="center_vertical"
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
     </LinearLayout>
 
     <android.support.design.widget.FloatingActionButton
@@ -52,6 +71,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@+id/av_detail"
+        ads:fabSize="mini"
         android:layout_alignParentRight="true"
         android:layout_margin="10dp"
         android:src="@drawable/copy"

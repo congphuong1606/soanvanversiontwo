@@ -1,5 +1,6 @@
 package vn.congphuong.ominext.soanvanthpt.ui;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
@@ -8,11 +9,14 @@ import android.support.design.widget.AppBarLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.support.v7.widget.SearchView;
 import android.support.v7.widget.Toolbar;
+import android.text.Editable;
+import android.text.TextWatcher;
+import android.view.MotionEvent;
 import android.view.View;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
-import android.widget.TabWidget;
+import android.widget.EditText;
 import android.widget.TextView;
 
 import java.util.ArrayList;
@@ -32,7 +36,7 @@ public class ListLessonActivity extends AppCompatActivity
     @BindView(R.id.btn_back_listLesson)
     Button btnBackListLesson;
     @BindView(R.id.search_view)
-    SearchView searchView;
+    EditText editText;
     @BindView(R.id.tv_lop)
     TextView tvLop;
     @BindView(R.id.toolbar)
@@ -68,26 +72,47 @@ public class ListLessonActivity extends AppCompatActivity
         setAdapter();
         readData(chapterMot);
         changStatus(1);
-       seach();
+        seach();
 
     }
 
     private void seach() {
-        searchView.setQueryHint(Contants.SV_HINT);
-        searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
+        editText.setOnTouchListener(new View.OnTouchListener() {
             @Override
-            public boolean onQueryTextSubmit(String query) {
+            public boolean onTouch(View view, MotionEvent motionEvent) {
+                editText.setFocusable(true);
+                editText.setFocusableInTouchMode(true);
                 return false;
+            }
+        });
+        editText.addTextChangedListener(new TextWatcher() {
+            @Override
+            public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) {
+
             }
 
             @Override
-            public boolean onQueryTextChange(String newText) {
-                lessonAdapter.filter(newText.toString().trim(),listSeach);
+            public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
+                lessonAdapter.filter(charSequence.toString().trim(), listSeach);
                 rcvLesson.invalidate();
                 rcvLesson.smoothScrollToPosition(0);
-                return true;
+                if (charSequence.length() == 0) {
+                    editText.setFocusable(false);
+                    editText.setFocusableInTouchMode(false);
+                    View view = getCurrentFocus();
+                    if (view != null) {
+                        InputMethodManager imm = (InputMethodManager)getSystemService(Activity.INPUT_METHOD_SERVICE);
+                        imm.hideSoftInputFromWindow(view.getWindowToken(), 0);
+                    }
+                }
+            }
+
+            @Override
+            public void afterTextChanged(Editable editable) {
+
             }
         });
+
 
     }
 
@@ -140,9 +165,10 @@ public class ListLessonActivity extends AppCompatActivity
     }
 
     @Override
-    public void onClick(String path) {
+    public void onClick(String path, String name) {
         Intent intent = new Intent(this, DetailActivity.class);
         intent.putExtra("path", path);
+        intent.putExtra("name", name);
         startActivity(intent);
     }
 
@@ -166,7 +192,7 @@ public class ListLessonActivity extends AppCompatActivity
 
     private void changStatus(int i) {
         int on = R.color.red;
-        int off = R.color.colorPrimary;
+        int off = R.color.abc;
         if (i == 1) {
             vMot.setBackgroundColor(getResources().getColor(on));
             vHai.setBackgroundColor(getResources().getColor(off));

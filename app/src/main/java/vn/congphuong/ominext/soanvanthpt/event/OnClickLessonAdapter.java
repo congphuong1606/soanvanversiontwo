@@ -5,5 +5,5 @@ package vn.congphuong.ominext.soanvanthpt.event;
  */
 
 public interface OnClickLessonAdapter {
-    void onClick(String path);
+    void onClick(String path, String name);
 }

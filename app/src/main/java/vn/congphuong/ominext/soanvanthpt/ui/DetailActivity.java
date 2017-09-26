@@ -35,6 +35,8 @@ public class DetailActivity extends AppCompatActivity {
     Button btnDetailBack;
     @BindView(R.id.tv_content)
     TextView tvContent;
+    @BindView(R.id.tv_title)
+    TextView tvTitle;
     @BindView(R.id.fab_coppy)
     FloatingActionButton fabCoppy;
     @BindView(R.id.av_detail)
@@ -58,6 +60,8 @@ public class DetailActivity extends AppCompatActivity {
     private void setText() {
         Intent intent = getIntent();
         String fileName = intent.getStringExtra("path");
+        String name=intent.getStringExtra("name");
+        tvTitle.setText(name);
         if (!TextUtils.isEmpty(fileName)) {
             String data = getData(fileName);
             tvContent.setText(Html.fromHtml(data));
