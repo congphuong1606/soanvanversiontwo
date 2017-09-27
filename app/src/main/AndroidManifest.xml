@@ -22,7 +22,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ui.ListLessonActivity" />
+        <activity android:name=".ui.ListLessonActivity"
+            android:windowSoftInputMode="stateHidden"/>
         <activity android:name=".ui.DetailActivity"></activity>
     </application>
 

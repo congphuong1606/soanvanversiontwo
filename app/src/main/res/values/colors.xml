@@ -7,4 +7,7 @@
     <color name="text">#302f2f</color>
     <color name="red">#e94949</color>
     <color name="transparent">#00417cbe</color>
+    <color name="abc">#cc75c1ea</color>
+    <color name="oke">#dfeeff</color>
+    <color name="notoke">#FF444942</color>
 </resources>
