@@ -17,6 +17,7 @@ import android.widget.Toast;
 
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -89,6 +90,7 @@ public class DetailActivity extends AppCompatActivity {
     }
 
     private void loadAds() {
+        MobileAds.initialize(this, getResources().getString(R.string.admodAppID));
         adRequest = new AdRequest.Builder().build();
         avDetail.loadAd(adRequest);
     }

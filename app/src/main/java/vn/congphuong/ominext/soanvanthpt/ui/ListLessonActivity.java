@@ -191,13 +191,24 @@ public class ListLessonActivity extends AppCompatActivity
     }
 
     private void changStatus(int i) {
-        int on = R.color.red;
+        int imgonResource = R.drawable.ic_tap_mot;
+        int imgoffResource = R.drawable.ic_tap_hai;
+        int on = R.color.oke;
+        int o = R.color.notoke;
         int off = R.color.abc;
         if (i == 1) {
+            btnTapmot.setCompoundDrawablesWithIntrinsicBounds(imgonResource, 0, 0, 0);
+            btnTapmot.setTextColor(getResources().getColor(on));
+            btnTaphai.setCompoundDrawablesWithIntrinsicBounds(imgoffResource, 0, 0, 0);
+            btnTaphai.setTextColor(getResources().getColor(o));
             vMot.setBackgroundColor(getResources().getColor(on));
             vHai.setBackgroundColor(getResources().getColor(off));
         }
         if (i == 2) {
+            btnTapmot.setCompoundDrawablesWithIntrinsicBounds(imgoffResource, 0, 0, 0);
+            btnTapmot.setTextColor(getResources().getColor(o));
+            btnTaphai.setCompoundDrawablesWithIntrinsicBounds(imgonResource, 0, 0, 0);
+            btnTaphai.setTextColor(getResources().getColor(on));
             vMot.setBackgroundColor(getResources().getColor(off));
             vHai.setBackgroundColor(getResources().getColor(on));
         }
