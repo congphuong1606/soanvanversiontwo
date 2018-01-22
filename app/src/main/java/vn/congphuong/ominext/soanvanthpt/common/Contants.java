@@ -5,7 +5,7 @@ package vn.congphuong.ominext.soanvanthpt.common;
  */
 
 public class Contants {
-    public static final String DATABASE_NAME = "soanvan.sqlite";
+    public static final String DATABASE_NAME = "soanvan4.sqlite";
     public static final String SQL = "select * from Lesson where chapter = ";
     public static final String ASC = " ORDER BY id ASC";
     public static CharSequence SV_HINT="tìm kiếm";
